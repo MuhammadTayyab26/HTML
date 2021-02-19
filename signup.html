@@ -1,0 +1,35 @@
+<html>
+  <body>
+    <button><a href="./index.html">Home Page</a></button>
+    <h1>Sign-Up</h1>
+    <!-- Name, email, password, age, gender, submit button -->
+
+    <!-- validation -->
+    <form action="/index.html">
+      <div>
+        <label for="user_name">Name:</label>
+        <input required id="user_name" placeholder="Your Name" type="text" />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input required id="email" placeholder="Your Email" type="email" />
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input required id="password" placeholder="Password" type="password" />
+      </div>
+      <div>
+        <label for="age">Age:</label>
+        <input required name="age" id="age" placeholder="age" type="number" />
+      </div>
+      <!-- Check Box, Radio Button -->
+      <div>
+        <label for="male">Male:</label>
+        <input id="male" name="gender" type="radio" checked value="male" />
+        <label for="female">Female:</label>
+        <input id="female" name="gender" type="radio" value="female" />
+      </div>
+      <input type="submit" value="Sign me UP" />
+    </form>
+  </body>
+</html>
