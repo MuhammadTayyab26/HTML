@@ -1,0 +1,23 @@
+html,
+body {
+  font-family: "Tajawal" sans-serif;
+  background-color: grey;
+}
+h3 {
+  color: rgb(235, 215, 235);
+  border: 2px solid black;
+  margin: auto;
+}
+p {
+  color: turquoise;
+  background-color: thistle;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-left: 20px;
+}
+span {
+  color: yellow;
+  font-weight: 100;
+  text-transform: lowercase;
+  text-decoration: line-through;
+}
