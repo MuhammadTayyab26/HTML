@@ -3,10 +3,21 @@ body {
   font-family: "Tajawal" sans-serif;
   background-color: grey;
 }
+#logo-text {
+  color: blue;
+}
+.main-text,
+.secondary-text {
+  background-color: red;
+}
+
 h3 {
   color: rgb(235, 215, 235);
   border: 2px solid black;
   margin: auto;
+}
+.div_c h1 {
+  color: saddlebrown;
 }
 p {
   color: turquoise;
@@ -20,4 +31,15 @@ span {
   font-weight: 100;
   text-transform: lowercase;
   text-decoration: line-through;
+}
+a[href="https://google.com"]
+{
+  color: green;
+}
+.hover_me:hover {
+  color: green;
+}
+a[href="https://google.com"]:visited
+{
+  color: indigo;
 }

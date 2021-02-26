@@ -1,0 +1,30 @@
+html,
+body {
+  margin: 0%;
+  padding: 0%;
+}
+.links {
+  display: flex;
+  list-style-type: none;
+  margin-left: auto;
+  align-items: center;
+}
+
+.link {
+  margin-right: 20px;
+}
+.div_flex {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  flex-flow: row wrap;
+}
+p {
+  background-color: lawngreen;
+  width: 400px;
+}
+nav {
+  display: flex;
+  background-color: indigo;
+  /* justify-content: center; */
+}
